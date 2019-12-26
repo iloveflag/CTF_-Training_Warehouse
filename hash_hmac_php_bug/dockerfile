@@ -1,0 +1,5 @@
+FROM tutum/lamp
+RUN rm -rf /var/www/html/*
+ADD html/ /var/www/html/
+EXPOSE 80 
+CMD ["/run.sh"]
