@@ -55,4 +55,4 @@
 报错注入的长度问题,最大长度为32位,利用substr进行输出
 
 ##### 3.如有问题请联系iloveflag@outlook.com
-##### 2020-7-9 dockerfil2 正在下线修复
+##### [tips:start.sh  windows下开发造成编码问题(cat -v start.sh,第一行出现^M),导致docker无法运行,已修复](https://www.aneasystone.com/archives/2019/08/docker-images-cannot-run.html)
